@@ -7,6 +7,6 @@ deploy:
   provider: heroku
   api_key:
     secure: MZ/9gJsg7s4dvAVPUBwwLX/oZl56t5xSdQxZfRjHnnNfyDJkG8YF7Wos85ctGfC7X4mxXaKv3+fo7sjf955FgW+1H2mS1Yi66MwL1mpnUcS5n1WAu3P7E+d3e8pp5/gzlAWND4PeIR1Di9DsUC6ROPngNr3lleV0IpYjfLII5ic=
-  app: hello-world
+  app: hello
   on:
     repo: chrisheaththomas/hello-world
