@@ -6,3 +6,6 @@ python:
 install: pip install -r requirements.txt
 # command to run tests, e.g. python setup.py test
 script:  python hello_tests.py
+deploy:
+  provider: heroku
+  api_key: 16bf79ce-b1e3-4010-96a1-5c94aa872513
