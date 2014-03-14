@@ -1,11 +1,12 @@
 language: python
 python:
-  - "2.7"
-    
-# command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
+- '2.7'
 install: pip install -r requirements.txt
-# command to run tests, e.g. python setup.py test
-script:  python hello_tests.py
+script: python hello_tests.py
 deploy:
   provider: heroku
-  api_key: 16bf79ce-b1e3-4010-96a1-5c94aa872513
+  api_key:
+    secure: MZ/9gJsg7s4dvAVPUBwwLX/oZl56t5xSdQxZfRjHnnNfyDJkG8YF7Wos85ctGfC7X4mxXaKv3+fo7sjf955FgW+1H2mS1Yi66MwL1mpnUcS5n1WAu3P7E+d3e8pp5/gzlAWND4PeIR1Di9DsUC6ROPngNr3lleV0IpYjfLII5ic=
+  app: hello-world
+  on:
+    repo: chrisheaththomas/hello-world
