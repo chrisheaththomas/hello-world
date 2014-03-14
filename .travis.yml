@@ -6,6 +6,6 @@ script: python hello_tests.py
 deploy:
   provider: heroku
   api_key: 16bf79ce-b1e3-4010-96a1-5c94aa872513
-  app: hello
+  app: ancient-headland-6650
   on:
     repo: chrisheaththomas/hello-world
