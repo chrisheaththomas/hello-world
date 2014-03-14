@@ -5,7 +5,8 @@ install: pip install -r requirements.txt
 script: python hello_tests.py
 deploy:
   provider: heroku
-  api_key: 16bf79ce-b1e3-4010-96a1-5c94aa872513
+  api_key:
+    secure: PKuREQ0ecPHwiHdgbfS9KDMCoQYxuJwtfapv9zYSwxa2Pwk1NswR+tNGuzjlNxCm4tDgQYAT22uqnxju91xav0S+eDBcCzxby0aoQnYcBhyIIZvLhsjjuXJAQ3fBVYhi007A43cdAsmVdG+Xw2NucL1i/7HpLfq6X3aA1cgUbe8=
   app: ancient-headland-6650
   on:
     repo: chrisheaththomas/hello-world
